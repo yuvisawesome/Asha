@@ -1,0 +1,154 @@
+.top-image {
+    /* display: inline-block; */
+    width: 100%;
+}
+body {
+    background-color: #dff9fb;
+}
+.overlay {
+    background-color: #55E6C177;
+    text-align: center;
+    z-index: 1;
+    padding: 1rem;
+    position: relative;
+    height: 10rem;
+    /* display: inline-block; */
+    width: 100%;
+    bottom: 10.2rem;
+    color: white;
+}
+.arrow {
+    color: #FC427B;
+    font-size: 3.5rem;
+    background-color: #F8EFBA;
+    padding: 1rem;
+    border-radius: 50%;
+    animation: bounce 0.5s infinite alternate;
+    -webkit-animation: bounce 0.5s infinite alternate;
+    text-shadow: gray 2px 2px 1px;
+}
+
+.scroll-down-container {
+    background: #dff9fb;
+    padding: 1rem;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 10.3rem;
+    color: #2C3A47;
+    font-family: sans-serif;
+}
+.scroll-down-text {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eb3b5a, #f7b731);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-body {
+    background-color: #dff9fb;
+    padding: 0 2rem 2rem;
+}
+video {
+    width: 100vw;
+    border: 5px solid;
+    border-image: linear-gradient(to right,
+        #26de81,
+        #2bcbba 40%,
+        #45aaf2,
+        #3867d6,
+        #a55eea,
+        #3867d6,
+        #45aaf2,
+        #2bcbba 60%,
+        #26de81
+        
+    ) 2% 36%;
+    margin: 2rem 0;
+    /* border-radius: 10px; */
+    box-shadow: 0 5px 5px  slategray;
+}
+.heading {
+    font-family: sans-serif;
+    font-size: 4rem;
+    color: #FC427B;
+    font-weight: bolder;
+    text-shadow: #f9ca24 2px 2px 1px;
+}
+
+.messege-text {
+    font-family: sans-serif;
+    font-size: 1.35rem;
+    line-height: 1.5;
+    color: #1e272e;
+    text-align: left;
+}
+
+.messege-container {
+    background: linear-gradient( 90deg,
+        antiquewhite,
+        whitesmoke
+    );
+    padding: 2.5rem 1.3rem;
+}
+
+.messege-head {
+    font-family: cursive;
+    font-size: 4rem;
+    color: #222f3e;
+}
+
+.portrait-image {
+    width: 80vw;
+    height: auto;
+    margin: 2rem 0;
+    border: 7.5px solid; 
+    border-image: linear-gradient(-45deg,
+        #26de81,
+        #2bcbba 40%,
+        #45aaf2,
+        #3867d6,
+        #a55eea,
+        #3867d6,
+        #45aaf2,
+        #2bcbba 60%,
+        #26de81
+        
+    ) 2% 36%;
+    box-shadow: 0 5px 15px slategray;
+}
+
+.mom-image {
+    width: 75%;
+    border-radius: 50%;
+    margin: 2rem 0 3rem;
+    border: solid 5px gainsboro;
+    box-shadow: 0px 0px 15px hotpink;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(15px);
+    }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(15px);
+  }
+}
+.top-container {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+@media (min-width: 768px) {
+
+}

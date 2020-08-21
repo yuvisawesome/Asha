@@ -1,0 +1,11 @@
+:root {
+    --image-overlay: #f78fb3;
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: visible;
+}
